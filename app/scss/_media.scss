@@ -1,0 +1,516 @@
+@media screen and (max-width: 1000px) {  
+.menu__btn {
+    display: block;
+}
+.menu__list {
+  border-bottom: 1px solid #e8e8e8;
+  display: none;
+  position: absolute;
+  background-color: #f9fafd;
+  top: 93px;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+  text-align: left;
+  li {    
+    padding-left: 25px;      
+    border-top: 1px solid #e8e8e8;
+    background-color: #f9fafd;
+    cursor: pointer;    
+  }
+  a {
+    padding: 12px 0px;     
+  }
+}
+.services__link  {
+  padding: 0;
+}
+.services__link::after { 
+  right: 20px;
+  top: 12px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.header__menu-button {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  .quote {
+    padding: 10px 16px;
+  }
+  .call {
+    padding: 10px 13px;
+  }
+}
+.services__link:hover .services__link-box {  
+  display: none;
+}
+.services__items-row {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-portfolio__items { 
+  justify-content: center;
+}
+.process__items-row {
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.process__item {
+  margin-bottom: 70px;  
+}
+.ranking__items {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.key__items-row {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.industries__items-row {
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team__items {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-form__inner {
+  flex-direction: column;
+  align-items: center;
+}
+.section-form__reach {  
+  width: 100%;  
+}
+.reach__button {
+  margin-top: 0px;  
+}
+.section-form__box {  
+  width: 100%;   
+}
+.main-social__inner {
+  flex-wrap: wrap;
+}
+.main-social__inner a {
+  margin-bottom: 30px;
+ width: 30%;
+}
+.footer__inner {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer__col-info,
+.footer__col {
+  max-width: 50%; 
+}
+
+
+}
+
+
+
+@media screen and (max-width: 780px) {
+.main-header__inner {
+  flex-direction: column;
+}
+.main-header__title {
+  font-size: 34px;  
+}
+.main-header {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.main-header__content {
+  margin-bottom: 35px;
+}
+.main-header__images {
+  img {
+    max-height: 440px;
+  }
+}
+.about {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+  background-color: #f9fafd;
+}
+.about__title {
+  font-size: 40px;
+  margin-bottom: 40px; 
+}
+.about__subtitle {
+  font-size: 40px;
+  margin-bottom: 35px;   
+}
+.block__text {
+  font-size: 17px;
+  line-height: 26px; 
+  margin-bottom: 30px;
+}
+.help__title {
+  margin-bottom: 40px;
+  font-size: 38px;  
+}
+.help {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.services {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+.section__title {
+  font-size: 38px;  
+  margin-bottom: 35px;
+}
+.services__item-title {  
+  font-size: 20px;  
+  margin-bottom: 10px;
+}
+.services__item { 
+  max-width: 97%; 
+  margin-bottom: 20px;
+  padding-right: 0px;
+}
+.services__items-row { 
+  margin-bottom: 0px;
+}
+.worked__slider { 
+  padding-top: 25px;
+  padding-bottom: 25px; 
+}
+.main-portfolio {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+.product__slider {
+  padding-top: 10px;
+  .fa-chevron-right,
+  .fa-chevron-left {
+    display: none;
+  }
+}
+.product__slider-wrapper .slick-dots button { 
+  margin-right: 5px;  
+}
+.process {
+  padding-top: 35px;
+  padding-bottom: 25px; 
+}
+.ranking {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  background-color: #fff;
+  text-align: center;
+}
+.clients__slider {
+  padding-top: 25px;
+  padding-bottom: 25px; 
+}
+.key {
+  padding-top: 35px;
+  padding-bottom: 20px;  
+}
+.key__item {  
+  max-width: 90%;   
+}
+.industries {
+  padding-top: 35px;
+  padding-bottom: 35px;  
+}
+.industries__item {
+  width: 90%;
+  height: 210px;
+  margin-right: 0;
+} 
+.values {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.values__items {
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.team {
+  padding-top: 35px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.team__item-name {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.team__item {
+  margin-bottom: 20px;
+}
+.section-form__box { 
+  width: 100%;
+}
+.section-form__reach {
+  padding: 30px 5px 10px;
+  width: 100%;  
+}
+.footer__content {
+  padding-top: 25px;  
+}
+.footer__col {
+  padding: 10px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .main-header__title {
+    font-size: 28px;
+}
+.main-header__images img {
+  max-height: 380px;
+} 
+.about__title {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.about__subtitle {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+.help__title {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.help p {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+.section__title {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.process__item {
+  max-width: 100%;
+}
+.process__item {
+  margin-right: 0;
+}
+.values__item {
+ max-width: 100%;
+  padding: 15px;
+}
+.main-social__inner a {
+  margin-bottom: 30px;
+ width: 50%;
+}
+.footer__col-info,
+.footer__col {
+  max-width: 100%;   
+}
+.footer__col-title { 
+  margin-bottom: 15px;
+}
+.footer__col-list a {
+  font-size: 12px;  
+  margin-bottom: 12px;  
+}
+.footer__col-info {  
+  width: 100%;  
+  padding: 10px;
+  
+}
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .main-header__title {
+    font-size: 20px;
+}
+.main-header__images img {
+  max-height: 300px;
+} 
+.about__title {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.about__subtitle {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.block__text {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+.about {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: #f9fafd;
+}
+.about__btn a {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 30px;  
+}
+.topbar__contacts {
+  flex-direction: column;
+  align-items: center;
+}
+.topbar__contacts-email {
+  margin-left: 0px;
+  margin-top: 5px;    
+}
+.help__title {
+  margin-bottom: 25px;
+  font-size: 26px;
+  line-height: 25px;
+}
+.services__item { 
+  max-width: 100%; 
+  margin-bottom: 30px;  
+}
+.services {
+  padding-top: 20px;  
+}
+.section__title {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.services__item-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.values__item-text, .key__item-text, .process__item-text, .services__item-text {
+  color: #545454;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+.services__item {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.worked__slider .slick-dots { 
+  margin-top: 0px;  
+  margin-bottom: 0px;
+}
+.worked__slider .slick-dots button {  
+  margin-right: 6px;  
+}
+.main-portfolio {
+  padding-top: 15px;
+  padding-bottom: 15px; 
+}
+.main-portfolio__items {
+   margin-bottom: 25px;  
+}
+.main-portfolio__btn a {
+  font-size: 14px;  
+  padding: 8px 16px; 
+}
+.main-portfolio__btn a .fa-long-arrow-alt-right {
+  padding-left: 5px;
+}
+.key__item-title, .process__item-title { 
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 15px;  
+}
+.key__item {  
+  max-width: 100%;
+  margin-bottom: 10px;   
+}
+.section-form__reach {
+  padding: 30px 0px 10px;  
+}.reach__title { 
+  font-size: 24px;  
+  margin-bottom: 15px; 
+  margin-left: 40%;
+}
+.reach__item { 
+  font-size: 15px;
+  margin-bottom: 35px;
+  padding-left: 0px;
+  img {
+    left: 0px;
+  }
+}
+.reach__item-content {
+  margin-left: 110px;
+}
+.section-form__reach a {  
+  margin-bottom: 15px;  
+}
+.reach__button a {
+  font-size: 14px;
+  padding: 10px 16px;  
+  margin-right: 15px;
+}
+.section__form-item {  
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.section-form__box .section__form-item input {
+  padding: 15px;
+  max-width: 100%;
+  height: 35px; 
+}
+.section-form__box input {
+  padding: 20px;  
+  margin-bottom: 10px;
+}
+.section-form__box textarea { 
+  margin-bottom: 10px;  
+}
+.section-form {
+  padding-top: 25px;
+  padding-bottom: 15px;  
+}
+.section-form__box {  
+  padding: 20px 15px;   
+}
+.main-social {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 390px) {
+  .section__title {
+    font-size: 21px;   
+}
+.ranking {
+  padding-top: 10px;
+  padding-bottom: 10px;  
+}
+.main-social__inner a { 
+ width: 100%;
+}
+
+
+}

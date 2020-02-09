@@ -1,0 +1,120 @@
+////////header////////
+// .header {
+//   padding-top: 70px;
+//   padding-bottom: 76px;   
+// }
+// .header__inner {
+//   display: flex;
+//   justify-content: space-between; 
+// }
+
+// .header__title {  
+//   font-size: 28px;
+//   line-height: 1.2;
+//   font-family: 'Poppins', sans-serif;  
+//   color: #282828;
+//   font-weight: 700;
+//   margin-bottom: 40px;
+// }
+// .header__subtitle {
+//   font-size: 18px;  
+//   color: #3a3a3a;
+//   margin-bottom: 40px;
+// }
+// .header__text { 
+//   max-width: 630px; 
+//   width: 100%;
+//   font-size: 17px;
+//   line-height: 30px;
+//   font-weight: 300;
+//   color: $text;
+//   margin-bottom: 50px;
+//   a {
+//     color: $blue;
+//     font-weight: 700;
+//     transition: $trans;
+//     &:hover {
+//       color: #000;
+//     }
+//   }
+// }
+// .header__btn {      
+//   a {
+//     font-size: 15px;
+//     position: relative;
+//     padding: 14px 70px 14px 50px; 
+//     font-weight: 700;
+//     color: #0274be;
+//     background-color: #fff;
+//     border: 2px solid #0274be; 
+//     border-radius: 50px;
+//     transition: $trans;
+//   &::after {
+//     position: absolute;
+//     content: '\f105';
+//     font-size: 20px;
+//     font-weight: 700;
+//     top: 12px;
+//     right: 45px;
+//     font-family: 'icomoon';
+//     color: #0274be;
+//     border-radius: 50px;    
+//     transition: $trans;
+//     }
+//     &:hover {
+//       color: #fff;
+//       background-color: #0274be;
+//     }
+//     &:hover:after {
+//       color: #fff;      
+//     }
+//   }
+// }
+// .header__images { 
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   max-width: 531px; 
+//   width: 100%;  
+// }
+// .glimpse {
+//   padding-top: 70px;
+//   padding-bottom: 70px;
+//   text-align: center;
+//   color: #fff;
+//   background-color:#315fda;
+//   p {
+//     font-size: 16px;
+//     line-height: 28px;
+//     margin-bottom: 40px;
+//   }
+// }
+// .glimpse__title {
+//   margin-bottom: 50px;
+//   font-size: 42px;
+//   font-family: 'Poppins', sans-serif;
+//   font-weight: 700;
+//   letter-spacing: 3px;
+// }
+// .glimpse__btn {  
+//   margin-top: 50px;
+//   a {
+//     font-size: 13px;    
+//     padding: 14px 50px; 
+//     font-weight: 700;
+//     color: #fff;    
+//     background-color: transparent;
+//     font-family: 'Montserrat', sans-serif;
+//     letter-spacing: 2px;
+//     border: 2px solid #fff; 
+//     border-radius: 50px;
+//     transition: $trans; 
+//     text-transform: uppercase; 
+//     &:hover {
+//       color: #0274be;
+//       background-color: #0274be;
+//     }
+   
+//   }
+// }
+
