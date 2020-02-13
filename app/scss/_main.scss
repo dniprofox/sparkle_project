@@ -305,12 +305,15 @@
     }   
   }
 }
-.header__images { 
+.main-header__images { 
+  img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   max-width: 531px; 
   width: 100%;  
+  }
+ 
 }
 ///////help///////
 .help {
@@ -360,8 +363,8 @@
   display: flex; 
   max-width: 390px;
   width: 100%;
-  margin-bottom: 30px;
-  padding-right: 15px;
+  margin-bottom: 30px;  
+  padding-right: 30px;
   a {
     color: $blue;
     transition: $trans;
