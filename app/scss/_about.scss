@@ -29,7 +29,7 @@
   font-weight: 700;
   color: #000;
 }
-.about__header-subtitle {  
+.about-header__subtitle {  
   font-size: 20px;
   margin-bottom: 30px;
   font-weight: 300;
@@ -65,7 +65,7 @@
     border-radius: 50px;
     transition: $trans;
     border: 1px solid#4054B2; 
-    box-shadow: 0px 10px 30px -8px rgba(0,0,0,0.16);
+    box-shadow: 0px 10px 30px -8px rgba(41, 17, 17, 0.16);
     i {
       margin-left: 20px;
     }
@@ -142,7 +142,7 @@
 .mission__item {
   max-width: 433px;
   width: 100%;
-  padding: 40px 15px;
+  padding: 40px 25px;
   position: relative;
   &:after {
     position: absolute;
@@ -208,7 +208,7 @@
   padding: 10px;
   background-color: #315FDA;  
   img {
-    max-width: 600px;
+    max-width: 620px;
     width: 100%;
     
   }
@@ -230,7 +230,7 @@
 }
 
 .accordion-container .article-title {  
-  min-width: 580px;
+  min-width: 615px;
   width: 100%;
   display: block;
   position: relative;
@@ -247,7 +247,7 @@
   position: absolute;
   top: 10px;
   right: 15px;
-  padding-left: 10px;
+  padding-left: 7px;
   font-style: normal;
   font-size: 30px;  
   color: #000;

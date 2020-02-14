@@ -1,3 +1,6 @@
+
+
+
 @media screen and (max-width: 1000px) {  
 .menu__btn {
     display: block;
@@ -115,14 +118,17 @@
 }
 .section-form__work {
   padding: 0px ;
-  padding-bottom: 40px;
- 
+  padding-bottom: 40px; 
+}
+.main-portfolio__item { 
+  min-width: 100%;  
+  img {        
+    min-width: 100%;  
+  }
+
 }
 
-
-
 }
-
 
 
 
@@ -351,9 +357,19 @@
   margin-right: 0px;
 }
 .accordion-container .article-title {
-  min-width: 100%; 
-  
+  min-width: 100%;   
 }
+.main-portfolio__item {      
+  img {        
+    max-width: 647px;
+    width: 100%;
+    height: auto;       
+  }
+}
+.page-portfolio {
+  padding-top: 20px;
+  padding-bottom: 30px;
+ }
 
 
 
@@ -642,6 +658,10 @@
 .team__item img {
   max-width: 80%;
   margin: 0 auto;
+}
+.section__form-btn button {
+  font-size: 14px;  
+  padding: 10px 35px;  
 }
 
 }

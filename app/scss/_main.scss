@@ -310,7 +310,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 531px; 
+  max-width: 540px; 
   width: 100%;  
   }
  
@@ -361,7 +361,7 @@
 }
 .services__item {
   display: flex; 
-  max-width: 390px;
+  max-width: 420px;
   width: 100%;
   margin-bottom: 30px;  
   padding-right: 30px;
@@ -457,15 +457,15 @@
 }
 .main-portfolio__items {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 50px;  
 }
 .main-portfolio__item {  
   position: relative;  
   overflow: hidden;
-  img {   
-    max-width: 582px;
+  img {        
+    max-width: 647px;
     width: 100%;
     height: auto;       
   }
@@ -707,7 +707,7 @@
 }
 .key__item {
   display: flex; 
-  max-width: 390px;
+  max-width: 400px;
   width: 100%;
   margin-bottom: 30px;
   padding-right: 15px;
@@ -745,10 +745,10 @@
   justify-content: space-between;
 }
 .industries__item {  
-  width: 233px;
+  width: 246px;
   height: 256px;
   padding: 20px 15px 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-color: #f9fafd;
   margin-right: 10px;
   transition: $trans;
