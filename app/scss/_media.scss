@@ -125,7 +125,13 @@
   img {        
     min-width: 100%;  
   }
-
+}
+.blog-header__inner {
+  flex-direction: column;
+}
+.blog-header__images img {  
+  max-width: 70%;
+  height: auto;
 }
 
 }
@@ -370,10 +376,41 @@
   padding-top: 20px;
   padding-bottom: 30px;
  }
+ .blog-article {
+  padding-top: 60px;
+  padding-bottom: 200px;  
+}
 
+.blog-header__content {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  max-width: 100%;  
+}
 
-
-
+.blog__article { 
+  max-width: 100%;  
+  height: 497px;
+  margin-bottom: 40px;
+}
+.blog__item img {
+  max-width: 100%;  
+  height: auto;
+}
+.blog-header__btn {
+  margin-top: 35px;
+  position: relative;
+}
+.blog-article__item {  
+  width: 580px;
+  max-width: 100%;
+  height: auto;  
+}
+.blog__item {  
+  margin-bottom: 40px;  
+}
+.blog-article {  
+  padding-bottom: 120px;
+}
 
 }
 
@@ -455,6 +492,24 @@
   line-height: 30px;
   max-width: 60%;  
 }
+.blog-article__content {  
+  margin-top: 55px;
+}
+.blog-article {
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+.blog__item-title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #3b3b3b;
+    font-weight: 500;
+}
+
+
+
+
 
 }
 
@@ -663,6 +718,50 @@
   font-size: 14px;  
   padding: 10px 35px;  
 }
+.blog-header__title {
+  font-size: 34px;
+  margin-bottom: 20px;  
+}
+.content__text {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+.blog-header__btn a {
+  font-size: 14px; 
+  padding: 6px 20px;  
+}
+.blog-header__inner {
+  margin-top: 0px;
+}
+.blog-article__title {
+  margin-bottom: 10px;
+  font-size: 28px;
+  line-height: 32px;
+}
+.blog-article__desc {
+  margin-bottom: 15px;
+}
+.blog-article__text {  
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.blog__item-desc { 
+  margin-bottom: 10px;
+}
+.blog__item-text {
+  font-size: 14px;
+  line-height: 22px;  
+  margin-bottom: 15px;  
+}
+.blog__item {
+  margin-bottom: 24px;
+}
+.blog-header__images img {
+  max-width: 80%;  
+}
+
+
 
 }
 
@@ -681,11 +780,6 @@
 .work-count__item p {
   font-size: 16px;
   font-weight: 500;
-}
-.content__text {
-  font-size: 14px;
-  line-height: 20px;
-  margin-bottom: 10px;
 }
 .mission__item-title {
   font-size: 21px;
@@ -714,7 +808,10 @@
   padding-top: 10px;
   padding-bottom: 20px;
 }
-
+.blog-article__title {  
+  font-size: 24px;
+  line-height: 30px;
+}
 
 
 
