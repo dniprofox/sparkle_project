@@ -274,7 +274,7 @@
 .block__text {  
     font-size: 17px;
     line-height: 30px;
-    font-weight: 300;
+    font-weight: 500;
     color: $text;
     margin-bottom: 50px;
   a {
@@ -396,17 +396,15 @@
   line-height: 26px;
   letter-spacing: 0.5px;
 }
-// clients__slider/////////
+//worked__slider/////////
 .worked__slider {
   text-align: center;
   padding-top: 70px;
   padding-bottom: 50px;
-  background-color: #f9fafd;    
-  display: flex;   
-  justify-content: center;  
+  background-color: #f9fafd;     
   .worked__slider-items {
     img {
-      max-width: 300px;
+      max-width: 270px;
       width: 100%;
     }
   }
@@ -976,7 +974,7 @@
   padding-bottom: 40px;
   
 }
-.main-social__inner {
+.main-social__list {
   display: flex;   
   justify-content: space-around;
   align-items: center;

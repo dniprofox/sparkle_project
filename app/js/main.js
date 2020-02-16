@@ -5,14 +5,7 @@ $(function(){
     $('.menu__list').slideToggle();
   });
  
-
-  ////header__slider////////
-  $('.header__slider-inner').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: true   
-  });
+ 
   ////worked-slider////////
   $('.worked__slider-items').slick({
     slidesToShow: 5,
@@ -24,8 +17,9 @@ $(function(){
     dots: true,
     responsive: [
       {
-        breakpoint: 1000,
+        breakpoint: 1024,
         settings: {
+          arrows: false,
           slidesToShow: 4,
           slidesToScroll: 1,         
         }
@@ -36,8 +30,21 @@ $(function(){
           slidesToShow: 3,
           slidesToScroll: 1,          
         }
-      },         
-      
+      },    
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,          
+        }
+      },              
+      {
+        breakpoint: 390,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,          
+        }
+      },             
     ]
   });
   

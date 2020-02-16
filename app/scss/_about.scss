@@ -51,7 +51,7 @@
   }
 }
 .header__about__btn {  
-  margin-top: 70px;
+  margin-top: 60px;
   position: relative;     
   a {
     font-size: 16px;
@@ -208,18 +208,22 @@
   padding: 10px;
   background-color: #315FDA;  
   img {
-    max-width: 620px;
+    max-width: 640px;
     width: 100%;
     
   }
 }
 ////accordion
 .choose-accordion__content {
+  max-width: 674px;
+  width: 100%;
   text-align: center;
   padding: 50px 15px;
   margin-right: 20px;
 }
-.accordion-container { 
+.accordion-container {   
+  max-width: 674px;
+  width: 100%;
   text-align: left; 
   position: relative;
   max-width: 100%;
@@ -229,9 +233,7 @@
   cursor: pointer
 }
 
-.accordion-container .article-title {  
-  min-width: 615px;
-  width: 100%;
+.accordion-container .article-title {   
   display: block;
   position: relative;
   margin: 0;
@@ -277,6 +279,9 @@
 .about-form__box {
   width: 100%;
 }
+.section-form {
+  text-align: center;
+}
 .section-form__work {  
   padding: 170px 15px 40px;
   text-align: center;
@@ -295,3 +300,4 @@
   max-width: 60%;
   margin: 0 auto;
 }
+

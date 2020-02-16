@@ -128,6 +128,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-bottom: 70px;
 }
 .blog__item {
   background-color: #eeeeee;
@@ -144,11 +145,14 @@
   padding: 20px;
 }
 .blog__item-title {
-  margin-bottom: 25px;
-  font-size: 25px;
-  color: #3b3b3b;
-  font-weight: 500;
+  a  {
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: #3b3b3b;
+    font-weight: 500;
+  }
 }
+
 .blog__item-desc {
   font-size: 11px;
   color: #777777;
