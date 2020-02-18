@@ -285,4 +285,36 @@
 .game-build__items {
   justify-content: space-between;
 }
-//////unity
+//////boost
+.boost__items {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.boost__item {
+  max-width: 530px;
+  width: 100%;
+  text-align: left;
+  img {
+    max-width: 530px;
+    width: 100%;
+    padding-right: 20px;
+  }
+}
+.digital__item {
+  img {
+    max-width: 77px;
+    width: 100%;
+  }
+}
+.design__title {
+  margin-bottom: 30px;
+}
+.design__subtitle {
+  font-size: 35px;
+  margin-bottom: 60px;
+  color: #6e635f;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
